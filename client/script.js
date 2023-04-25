@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server -> bot's reponse
   
-  const response = await fetch('https://mychatgpt-o7de.onrender.com', {
+  const response = await fetch('https://mychatgpt-o7de.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
